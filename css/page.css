@@ -1,0 +1,48 @@
+div.page_head_size{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+div.page_head{
+    /* id="header"; */
+    /* float:inline-start; */
+    color: white;
+    background-color: rgba(70, 131, 180, 0.8);
+}
+/* div.page_menu{
+    id="nav";
+    float: left;
+    background-color: lightgrey;
+    width: 20%;
+    height: 1000px;
+} */
+div.page_main_size{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+div.page_main_bg{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* a:active{
+    text-decoration: double;
+} */
+a:link.page_head{
+    color: white;
+}
+a:visited.page_head{
+    color: white;
+}
+body{
+    /* background-image:url('bg/index.php'); */
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+}
+p{
+    font-size: larger;
+}

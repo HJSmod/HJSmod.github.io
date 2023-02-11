@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="GBK">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>滑稽mod工作室</title>
+    <link rel="stylesheet" type="text/css" href="css/page.css">
+</head>
+<body>
+    <script>
+        var imgs=["bg/1.webp","bg/2.webp","bg/3.webp","bg/4.webp","bg/5.webp","bg/6.webp","bg/7.webp","bg/8.webp","bg/9.webp","bg/10.webp","bg/11.webp","bg/12.webp","bg/13.webp","bg/14.webp","bg/15.webp","bg/16.webp","bg/17.webp","bg/18.webp"];
+        var index=Math.floor(Math.random()*imgs.length);
+        var img=imgs[index];
+        function showbg(){
+            document.body.style.backgroundImage="url("+img+")";
+        }
+        document.body.onload=function(){
+            showbg();
+        }
+    </script>
+    <div class="page_head_size"><div class="page_head">
+        <center>
+        <table border="1" width="100%">
+            <tr>
+                <th>
+                    <h1><a href="index.html" class="page_head">主页</a></h1>
+                </th>
+                <th>
+                    <h1><a href="members.html" class="page_head">成员</a></h1>
+                </th>
+                <th>
+                    <h1><a href="mods.html" class="page_head">mods</a></h1>
+                </th>
+                <th>
+                    <h1><a href="tutorial.html" class="page_head">教程</a></h1>
+                </th>
+                <th>
+                    <h1><a href="useless.html" class="page_head">没用的东西</a></h1>
+                </th>
+            </tr>
+        </table>
+        </center>
+    </div></div>
+</body>
+</html>
